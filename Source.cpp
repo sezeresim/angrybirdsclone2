@@ -5,6 +5,7 @@ sezeresim@gmail.com
 
 */
 
+//YOU CANT USE THAT WITH ONLY CODES YOU MUST DOWNLOAD Fƒ∞LES FROM THƒ∞S Lƒ∞NK >>>https://drive.google.com/file/d/0B0VDhPuvLPXKcXp5WkFQT3BJQUk/view?usp=sharing
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -343,8 +344,8 @@ int main(int argc, char **argv)
 				if (vy == 0) {
 					vx = 0;
 				}
-				al_draw_bitmap(bird, vx-25, vy-25, 0);//ku˛ Áizimi
-				//al_draw_filled_circle(vx, vy, 25, al_map_rgb(255, 0, 255)); //25px Áap˝nda top Áizimi
+				al_draw_bitmap(bird, vx-25, vy-25, 0);//ku√æ √ßizimi
+				//al_draw_filled_circle(vx, vy, 25, al_map_rgb(255, 0, 255)); //25px √ßap√Ωnda top √ßizimi
 			}
 
 
@@ -367,7 +368,7 @@ int main(int argc, char **argv)
 				al_draw_text(mainfont_30, al_map_rgb(0, 0, 0), 450, 150, 1, "you must click mouse left button for score");
 			}
 
-			//gameover W›N and LOSE
+			//gameover W√ùN and LOSE
 			if (gameover == true) {
 				playagain = 0;
 				al_draw_bitmap(gamewin, 0, 0, 0);
